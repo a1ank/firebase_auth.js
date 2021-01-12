@@ -1,0 +1,92 @@
+#name {
+  margin-left: 50px;
+}
+
+#surname {
+  margin-left: 50px;
+}
+
+#age {
+  margin-left: 50px;
+}
+
+#gender {
+  width: 173px;
+  margin-left: 50px;
+}
+
+#txtEmail {
+  margin-left: 50px;
+}
+
+#txtPassword {
+  margin-left: 50px;
+}
+
+#btnLogin {
+  margin-left: 20px;
+  margin-top: 15px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  *display: inline;
+  position: relative;
+  zoom: 1;
+}
+
+#btnSingup {
+  margin-left: 5px;
+  margin-top: 15px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  *display: inline;
+  position: relative;
+  zoom: 1;
+}
+
+#btnLogout {
+  margin-left: 20px;
+  margin-top: 15px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  *display: inline;
+  position: relative;
+  zoom: 1;
+}
+
+#btnReset {
+  margin-left: 5px;
+  margin-top: 15px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  *display: inline;
+  position: relative;
+  zoom: 1;
+}
+
+.container {
+  margin-top: 200px;
+  margin-left: 500px;
+  opacity: 0.95;
+  border: 3px solid #A9A9A9;
+  /* Параметры границы */
+  padding: 25px;
+  /* Поля вокруг текста */
+  background-color: #E6E6FA;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  width: 270px;
+  font-size: 20px;
+  -webkit-box-shadow: 0px 12px 25px 1px rgba(0, 0, 0, 0.5);
+}
+
+.txt-modals {
+  margin-left: 60px;
+}

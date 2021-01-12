@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Firebase Web Quickstart</title>
+  <link rel="stylesheet" href="style/style.css">
+  <!-- Firebase App is always required and must be first -->
+  <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-app.js"></script>
+
+  <!-- Add additional services that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-messaging.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase-functions.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <input id="txtEmail" type="email" placeholder="Почта">
+    </br>
+
+    <button id="btnLogin" class="btn btn-action">
+      Войти
+    </button>
+
+    <button id="btnSingup" class="btn btn-secondary">
+      Зарегистрироваться
+    </button>
+
+     <button id="btnLogout" class="btn btn-action hide">
+      Выйти
+    </button>
+
+    <button id="btnReset" class="btn btn-action hide1">
+      Восстановить
+    </button>
+
+    <script src="js/register.js"></script>
+
+    <a class="txt-modals"> <a href="login.html">Login</a> \ <a href="register.html">Registration</a></a>
+
+  </div>
+</body>
+
+</html>

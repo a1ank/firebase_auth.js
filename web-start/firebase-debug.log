@@ -1,0 +1,295 @@
+[debug] [2018-11-26T08:04:11.712Z] ----------------------------------------------------------------------
+[debug] [2018-11-26T08:04:11.728Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\alank\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2018-11-26T08:04:11.728Z] CLI Version:   6.1.1
+[debug] [2018-11-26T08:04:11.728Z] Platform:      win32
+[debug] [2018-11-26T08:04:11.728Z] Node Version:  v8.12.0
+[debug] [2018-11-26T08:04:11.728Z] Time:          Mon Nov 26 2018 14:04:11 GMT+0600 (Центральная Азия (зима))
+[debug] [2018-11-26T08:04:11.728Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-26T08:04:11.743Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-26T08:04:11.743Z] > authorizing via signed-in user
+[debug] [2018-11-26T08:04:11.743Z] [iam] checking project new-app-98447 for permissions ["firebase.projects.get"]
+[debug] [2018-11-26T08:04:11.743Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-11-26T08:04:11.743Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-11-26T08:04:12.217Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-26T08:04:12.279Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/new-app-98447:testIamPermissions  
+
+[debug] [2018-11-26T08:04:13.555Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-26T08:04:13.555Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/new-app-98447  
+ 
+[debug] [2018-11-26T08:04:14.671Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\alank\Desktop\firebase aut\scr\web-start'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-11-26T08:04:22.382Z] Fetching environment
+[debug] [2018-11-26T08:04:22.382Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/451825055280:getServerAppConfig  
+ 
+[debug] [2018-11-26T08:04:22.398Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/451825055280/clients/_:getWebAppConfig  
+ 
+[debug] [2018-11-26T08:04:23.227Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-26T08:04:23.227Z] Starting @google-cloud/functions-emulator
+[debug] [2018-11-26T08:04:23.329Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2018-11-26T08:04:31.003Z] Parsing function triggers
+[info] i  functions: No HTTPS functions found. Use firebase functions:shell if you would like to emulate other types of functions.
+[debug] [2018-11-26T17:55:06.243Z] ----------------------------------------------------------------------
+[debug] [2018-11-26T17:55:06.259Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\alank\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2018-11-26T17:55:06.259Z] CLI Version:   6.1.1
+[debug] [2018-11-26T17:55:06.259Z] Platform:      win32
+[debug] [2018-11-26T17:55:06.259Z] Node Version:  v8.12.0
+[debug] [2018-11-26T17:55:06.259Z] Time:          Mon Nov 26 2018 23:55:06 GMT+0600 (Центральная Азия (зима))
+[debug] [2018-11-26T17:55:06.259Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-26T17:55:06.322Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-26T17:55:06.337Z] > authorizing via signed-in user
+[debug] [2018-11-26T17:55:06.337Z] [iam] checking project new-app-98447 for permissions ["firebase.projects.get"]
+[debug] [2018-11-26T17:55:06.337Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-11-26T17:55:06.337Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-11-26T17:55:06.804Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-26T17:55:06.835Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/new-app-98447:testIamPermissions  
+
+[debug] [2018-11-26T17:55:08.214Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-26T17:55:08.214Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/new-app-98447  
+ 
+[debug] [2018-11-26T17:55:09.371Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\alank\Desktop\firebase aut\scr\web-start'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-11-26T17:55:34.623Z] Fetching environment
+[debug] [2018-11-26T17:55:34.623Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/451825055280:getServerAppConfig  
+ 
+[debug] [2018-11-26T17:55:34.623Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/451825055280/clients/_:getWebAppConfig  
+ 
+[debug] [2018-11-26T17:55:35.385Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-26T17:55:35.385Z] Starting @google-cloud/functions-emulator
+[debug] [2018-11-26T17:55:35.526Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2018-11-26T17:55:42.637Z] Parsing function triggers
+[info] i  functions: No HTTPS functions found. Use firebase functions:shell if you would like to emulate other types of functions.
+[debug] [2018-11-27T09:59:31.035Z] Error: read ECONNRESET
+    at TLSWrap.onread (net.js:622:25)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-11-27T09:59:31.043Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:561:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:360:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-11-27T09:59:56.932Z] ----------------------------------------------------------------------
+[debug] [2018-11-27T09:59:56.948Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\alank\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2018-11-27T09:59:56.948Z] CLI Version:   6.1.1
+[debug] [2018-11-27T09:59:56.948Z] Platform:      win32
+[debug] [2018-11-27T09:59:56.948Z] Node Version:  v8.12.0
+[debug] [2018-11-27T09:59:56.948Z] Time:          Tue Nov 27 2018 15:59:56 GMT+0600 (Центральная Азия (зима))
+[debug] [2018-11-27T09:59:56.948Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-27T09:59:57.010Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-27T09:59:57.010Z] > authorizing via signed-in user
+[debug] [2018-11-27T09:59:57.010Z] [iam] checking project new-app-98447 for permissions ["firebase.projects.get"]
+[debug] [2018-11-27T09:59:57.010Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-11-27T09:59:57.010Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-11-27T09:59:57.457Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-27T09:59:57.520Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/new-app-98447:testIamPermissions  
+
+[debug] [2018-11-27T09:59:58.834Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-27T09:59:58.834Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/new-app-98447  
+ 
+[debug] [2018-11-27T09:59:59.978Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\alank\Desktop\firebase aut\scr\web-start'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-11-27T10:00:01.807Z] Fetching environment
+[debug] [2018-11-27T10:00:01.816Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/451825055280:getServerAppConfig  
+ 
+[debug] [2018-11-27T10:00:01.818Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/451825055280/clients/_:getWebAppConfig  
+ 
+[debug] [2018-11-27T10:00:02.389Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-27T10:00:02.390Z] Starting @google-cloud/functions-emulator
+[debug] [2018-11-27T10:00:02.512Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2018-11-27T10:00:03.090Z] Error: read ECONNRESET
+    at TLSWrap.onread (net.js:622:25)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-11-27T10:00:03.096Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:561:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:360:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-11-27T10:00:28.158Z] ----------------------------------------------------------------------
+[debug] [2018-11-27T10:00:28.158Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\alank\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2018-11-27T10:00:28.158Z] CLI Version:   6.1.1
+[debug] [2018-11-27T10:00:28.158Z] Platform:      win32
+[debug] [2018-11-27T10:00:28.158Z] Node Version:  v8.12.0
+[debug] [2018-11-27T10:00:28.158Z] Time:          Tue Nov 27 2018 16:00:28 GMT+0600 (Центральная Азия (зима))
+[debug] [2018-11-27T10:00:28.158Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-27T10:00:28.188Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-27T10:00:28.189Z] > authorizing via signed-in user
+[debug] [2018-11-27T10:00:28.189Z] [iam] checking project new-app-98447 for permissions ["firebase.projects.get"]
+[debug] [2018-11-27T10:00:28.192Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/new-app-98447:testIamPermissions  
+
+[debug] [2018-11-27T10:00:29.477Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-27T10:00:29.477Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/new-app-98447  
+ 
+[debug] [2018-11-27T10:00:30.623Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\alank\Desktop\firebase aut\scr\web-start'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-11-27T10:00:32.031Z] Fetching environment
+[debug] [2018-11-27T10:00:32.031Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/451825055280:getServerAppConfig  
+ 
+[debug] [2018-11-27T10:00:32.031Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/451825055280/clients/_:getWebAppConfig  
+ 
+[debug] [2018-11-27T10:00:32.544Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-27T10:00:32.544Z] Starting @google-cloud/functions-emulator
+[debug] [2018-11-27T10:00:32.788Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2018-11-27T10:00:38.357Z] Parsing function triggers
+[info] i  functions: No HTTPS functions found. Use firebase functions:shell if you would like to emulate other types of functions.
+[debug] [2018-11-27T10:01:03.977Z] Error: read ECONNRESET
+    at TLSWrap.onread (net.js:622:25)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-11-27T10:01:03.981Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:561:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:360:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-11-27T10:01:21.381Z] ----------------------------------------------------------------------
+[debug] [2018-11-27T10:01:21.384Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\alank\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2018-11-27T10:01:21.385Z] CLI Version:   6.1.1
+[debug] [2018-11-27T10:01:21.385Z] Platform:      win32
+[debug] [2018-11-27T10:01:21.385Z] Node Version:  v8.12.0
+[debug] [2018-11-27T10:01:21.386Z] Time:          Tue Nov 27 2018 16:01:21 GMT+0600 (Центральная Азия (зима))
+[debug] [2018-11-27T10:01:21.386Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-27T10:01:21.403Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-27T10:01:21.404Z] > authorizing via signed-in user
+[debug] [2018-11-27T10:01:21.404Z] [iam] checking project new-app-98447 for permissions ["firebase.projects.get"]
+[debug] [2018-11-27T10:01:21.408Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/new-app-98447:testIamPermissions  
+
+[debug] [2018-11-27T10:01:22.717Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-27T10:01:22.721Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/new-app-98447  
+ 
+[debug] [2018-11-27T10:01:23.863Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\alank\Desktop\firebase aut\scr\web-start'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-11-27T10:01:25.405Z] Fetching environment
+[debug] [2018-11-27T10:01:25.412Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/451825055280:getServerAppConfig  
+ 
+[debug] [2018-11-27T10:01:25.413Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/451825055280/clients/_:getWebAppConfig  
+ 
+[debug] [2018-11-27T10:01:25.901Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-27T10:01:25.902Z] Starting @google-cloud/functions-emulator
+[debug] [2018-11-27T10:01:26.175Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2018-11-27T10:01:26.712Z] Error: read ECONNRESET
+    at TLSWrap.onread (net.js:622:25)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-11-27T10:01:26.720Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:561:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:360:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-11-27T10:01:58.121Z] ----------------------------------------------------------------------
+[debug] [2018-11-27T10:01:58.126Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\alank\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2018-11-27T10:01:58.128Z] CLI Version:   6.1.1
+[debug] [2018-11-27T10:01:58.128Z] Platform:      win32
+[debug] [2018-11-27T10:01:58.128Z] Node Version:  v8.12.0
+[debug] [2018-11-27T10:01:58.128Z] Time:          Tue Nov 27 2018 16:01:58 GMT+0600 (Центральная Азия (зима))
+[debug] [2018-11-27T10:01:58.128Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-11-27T10:01:58.143Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-11-27T10:01:58.143Z] > authorizing via signed-in user
+[debug] [2018-11-27T10:01:58.143Z] [iam] checking project new-app-98447 for permissions ["firebase.projects.get"]
+[debug] [2018-11-27T10:01:58.143Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/new-app-98447:testIamPermissions  
+
+[debug] [2018-11-27T10:01:59.409Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-27T10:01:59.409Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/new-app-98447  
+ 
+[debug] [2018-11-27T10:02:00.583Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\alank\Desktop\firebase aut\scr\web-start'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-11-27T10:02:02.011Z] Fetching environment
+[debug] [2018-11-27T10:02:02.020Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/451825055280:getServerAppConfig  
+ 
+[debug] [2018-11-27T10:02:02.021Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/451825055280/clients/_:getWebAppConfig  
+ 
+[debug] [2018-11-27T10:02:02.508Z] <<< HTTP RESPONSE 200
+[debug] [2018-11-27T10:02:02.508Z] Starting @google-cloud/functions-emulator
+[debug] [2018-11-27T10:02:02.771Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2018-11-27T10:02:05.760Z] Parsing function triggers
+[info] i  functions: No HTTPS functions found. Use firebase functions:shell if you would like to emulate other types of functions.
+[debug] [2018-12-08T04:54:14.953Z] ----------------------------------------------------------------------
+[debug] [2018-12-08T04:54:14.953Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\alank\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2018-12-08T04:54:14.953Z] CLI Version:   6.1.1
+[debug] [2018-12-08T04:54:14.953Z] Platform:      win32
+[debug] [2018-12-08T04:54:14.953Z] Node Version:  v8.12.0
+[debug] [2018-12-08T04:54:14.953Z] Time:          Sat Dec 08 2018 10:54:14 GMT+0600 (Центральная Азия (зима))
+[debug] [2018-12-08T04:54:14.953Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-08T04:54:14.968Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-08T04:54:14.968Z] > authorizing via signed-in user
+[debug] [2018-12-08T04:54:14.968Z] [iam] checking project new-app-98447 for permissions ["firebase.projects.get"]
+[debug] [2018-12-08T04:54:14.984Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-12-08T04:54:14.984Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-12-08T04:54:15.421Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-08T04:54:15.453Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/new-app-98447:testIamPermissions  
+
+[debug] [2018-12-08T04:54:16.772Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-08T04:54:16.775Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/new-app-98447  
+ 
+[debug] [2018-12-08T04:54:17.872Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\alank\Desktop\Web\firebase aut\scr\web-start'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-12-08T04:54:44.525Z] Fetching environment
+[debug] [2018-12-08T04:54:44.549Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/451825055280:getServerAppConfig  
+ 
+[debug] [2018-12-08T04:54:44.550Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/451825055280/clients/_:getWebAppConfig  
+ 
+[debug] [2018-12-08T04:54:45.346Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-08T04:54:45.347Z] Starting @google-cloud/functions-emulator
+[debug] [2018-12-08T04:54:45.427Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./public
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2018-12-08T04:54:53.037Z] Parsing function triggers
+[info] i  functions: No HTTPS functions found. Use firebase functions:shell if you would like to emulate other types of functions.
